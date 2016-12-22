@@ -11,7 +11,7 @@
 <body> 
 <div class="container">
     <jsp:include page="fragments/bodyHeader.jsp"/>
-    <h2><fmt:message key="welcome"/> to Petclinic DEMO - V4.31</h2>
+    <h2><fmt:message key="welcome"/> to Petclinic DEMO - V4.32</h2>
     <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
     <img src="${petsImage}"/>
 
