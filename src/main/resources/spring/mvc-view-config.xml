@@ -26,6 +26,8 @@
 	  	<mvc:bean-name />
 	  	<mvc:jsp prefix="/WEB-INF/jsp/" suffix=".jsp"/>
 	</mvc:view-resolvers>
+	<mvc:resources location="/WEB-INF/images/" mapping="/images/**"></mvc:resources>
+
 
     <!-- Renders an XML view. Used by the BeanNameViewResolver  -->
     <bean id="vets/vetList.xml" class="org.springframework.web.servlet.view.xml.MarshallingView">
