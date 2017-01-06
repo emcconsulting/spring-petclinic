@@ -79,7 +79,7 @@
 	
 	<body>
 	
-	<h1>Microservices Demo - Web Server - v 18</h1>
+	<h1>Microservices Demo - Web Server - v 19</h1>
 	<h3>Overview</h3>
 	<ul>
 	<li>Demo defines a simple web-application for accessing accounts
